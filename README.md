@@ -13,8 +13,8 @@ En appuyant sur A :
 - Si la pompe est arrêtée, elle démeure arrêtée
 
 ## Méthode de résolution
-Pour résoudre notre problème, on utilisera une table de vérité que l'on essayera de traduire en expression logique à 
-partir d'une table de Karnaugh, c'est simple :smile:
+Pour résoudre notre problème, on utilisera une table de vérité que l'on essayera de traduire en expression logique à l'aide 
+d'une table de Karnaugh, ne vous inquietez pas, c'est simple :smile: !
 
 ### TABLE DE VERITE
 
@@ -31,7 +31,7 @@ M | A | P | S
 
 ### TABLE DE KARNAUGH
 
-MA/P | 0 | 1
+MA\P | 0 | 1
 ---- | ---- | ----
 0 0 | 0 | 1
 0 1 | 0 | 0
@@ -39,7 +39,7 @@ MA/P | 0 | 1
 1 0 | 1 | 1
 
 A partir de cette table de Karnaugh, on peut déterminer l'expression logique du circuit qui est : S = M!A + PM + P!A. 
-En simplifiant cette expression, on obtient S = !A(M+P) + MP avec S étant Etat final de la pompe
+En simplifiant cette expression, on obtient S = !A(M+P) + MP avec S étant l'état final de la pompe.
 
 ## Schéma logique du circuit
 Le schéma logique du circuit final est le suivant : 
