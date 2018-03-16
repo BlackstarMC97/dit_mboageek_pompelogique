@@ -33,6 +33,11 @@ M | A | P | S
 ## Schéma logique du circuit
 Le schéma logique du circuit final est le suivant : 
 
-![Image du circuitLogique](https://raw.githubusercontent.com/BlackstarMC97/dit_mboageek_pompelogique/master/PompeEssence%20Logique/bin/pompesim1.JPG)
+![Image du circuitLogique](https://raw.githubusercontent.com/BlackstarMC97/dit_mboageek_pompelogique/master/PompeEssence%20Logique/bin/pompecircuit.JPG)
 
 ## Aperçu du logiciel de simulation
+![Image du circuitLogique](https://raw.githubusercontent.com/BlackstarMC97/dit_mboageek_pompelogique/master/PompeEssence%20Logique/bin/pompesim1.JPG)
+
+![Image du circuitLogique](https://raw.githubusercontent.com/BlackstarMC97/dit_mboageek_pompelogique/master/PompeEssence%20Logique/bin/pompesim2.JPG)
+
+![Image du circuitLogique](https://raw.githubusercontent.com/BlackstarMC97/dit_mboageek_pompelogique/master/PompeEssence%20Logique/bin/pompesim3.JPG)
