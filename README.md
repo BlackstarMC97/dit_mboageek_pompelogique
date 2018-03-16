@@ -15,7 +15,9 @@ En appuyant sur A :
 ## Méthode de résolution
 Pour résoudre notre problème, on utilisera une table de vérité que l'on essayera de traduire en expression logique à 
 partir d'une table de Karnaugh, c'est simple :smile:
+
 ** TABLE DE VERITE **
+
 M | A | P | S
 ---- | ---- | ---- | ----
 0 | 0 | 0 | 0
