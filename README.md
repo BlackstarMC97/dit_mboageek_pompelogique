@@ -29,6 +29,17 @@ M | A | P | S
 1 | 1 | 0 | 0
 1 | 1 | 1 | 1
 
+### TABLE DE KARNAUGH
+
+MA/P | 0 | 1
+---- | ---- | ----
+0 0 | 0 | 1
+0 1 | 0 | 0
+1 1 | 0 | 1
+1 0 | 1 | 1
+
+A partir de cette table de Karnaugh, on peut déterminer l'expression logique du circuit qui est : S = M!A + PM + P!A. 
+En simplifiant cette expression, on obtient S = !A(M+P) + MP avec S étant Etat final de la pompe
 
 ## Schéma logique du circuit
 Le schéma logique du circuit final est le suivant : 
