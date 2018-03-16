@@ -13,9 +13,23 @@ En appuyant sur A :
 - Si la pompe est arrêtée, elle démeure arrêtée
 
 ## Méthode de résolution
+Pour résoudre notre problème, on utilisera une table de vérité que l'on essayera de traduire en expression logique à 
+partir d'une table de Karnaugh, c'est simple :smile:
+** TABLE DE VERITE **
+M | A | P | S
+---- | ---- | ---- | ----
+0 | 0 | 0 | 0
+0 | 0 | 1 | 1
+0 | 1 | 0 | 0
+0 | 1 | 1 | 0
+1 | 0 | 0 | 1
+1 | 0 | 1 | 1
+1 | 1 | 0 | 0
+1 | 1 | 1 | 1
 
 
 ## Schéma logique du circuit
-
+Le schéma logique du circuit final est le suivant : 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ## Aperçu du logiciel de simulation
